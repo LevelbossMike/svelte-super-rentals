@@ -1,0 +1,14 @@
+{
+  "name": "super-rentals-e2e",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "volta": {
+    "node": "16.15.0",
+    "ember-cli": "4.6.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  },
+  "scripts": {}
+}
