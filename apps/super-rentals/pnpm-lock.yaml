@@ -1,43 +1,38 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@sveltejs/adapter-auto': ^1.0.0
+  '@sveltejs/kit': ^1.0.0
+  autoprefixer: ^10.4.13
+  eslint: ^8.28.0
+  eslint-config-prettier: ^8.5.0
+  eslint-plugin-svelte3: ^4.0.0
+  postcss: ^8.4.21
+  prettier: ^2.8.0
+  prettier-plugin-svelte: ^2.8.1
+  svelte: ^3.54.0
+  svelte-check: ^3.0.1
+  tailwindcss: ^3.2.4
+  typescript: ^4.9.3
+  vite: ^4.0.0
+  vitest: ^0.25.3
 
-  .:
-    specifiers: {}
-
-  apps/super-rentals:
-    specifiers:
-      '@sveltejs/adapter-auto': ^1.0.0
-      '@sveltejs/kit': ^1.0.0
-      autoprefixer: ^10.4.13
-      eslint: ^8.28.0
-      eslint-config-prettier: ^8.5.0
-      eslint-plugin-svelte3: ^4.0.0
-      postcss: ^8.4.21
-      prettier: ^2.8.0
-      prettier-plugin-svelte: ^2.8.1
-      svelte: ^3.54.0
-      svelte-check: ^3.0.1
-      tailwindcss: ^3.2.4
-      typescript: ^4.9.3
-      vite: ^4.0.0
-      vitest: ^0.25.3
-    devDependencies:
-      '@sveltejs/adapter-auto': 1.0.2_@sveltejs+kit@1.1.4
-      '@sveltejs/kit': 1.1.4_svelte@3.55.1+vite@4.0.4
-      autoprefixer: 10.4.13_postcss@8.4.21
-      eslint: 8.32.0
-      eslint-config-prettier: 8.6.0_eslint@8.32.0
-      eslint-plugin-svelte3: 4.0.0_tmo5zkisvhu6htudosk5k7m6pu
-      postcss: 8.4.21
-      prettier: 2.8.3
-      prettier-plugin-svelte: 2.9.0_kdmmghgdi3ngrsq6otxkjilbry
-      svelte: 3.55.1
-      svelte-check: 3.0.2_pehl75e5jsy22vp33udjja4soi
-      tailwindcss: 3.2.4_postcss@8.4.21
-      typescript: 4.9.4
-      vite: 4.0.4
-      vitest: 0.25.8
+devDependencies:
+  '@sveltejs/adapter-auto': 1.0.2_@sveltejs+kit@1.1.4
+  '@sveltejs/kit': 1.1.4_svelte@3.55.1+vite@4.0.4
+  autoprefixer: 10.4.13_postcss@8.4.21
+  eslint: 8.32.0
+  eslint-config-prettier: 8.6.0_eslint@8.32.0
+  eslint-plugin-svelte3: 4.0.0_tmo5zkisvhu6htudosk5k7m6pu
+  postcss: 8.4.21
+  prettier: 2.8.3
+  prettier-plugin-svelte: 2.9.0_kdmmghgdi3ngrsq6otxkjilbry
+  svelte: 3.55.1
+  svelte-check: 3.0.2_pehl75e5jsy22vp33udjja4soi
+  tailwindcss: 3.2.4_postcss@8.4.21
+  typescript: 4.9.4
+  vite: 4.0.4
+  vitest: 0.25.8
 
 packages:
 
