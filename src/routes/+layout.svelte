@@ -14,6 +14,11 @@
         About
       </a>
     </li>
+    <li>
+      <a href="/getting-in-touch" class="hover:underline" class:font-semibold={$page.route.id === '/[page=contact]'}>
+        Contact
+      </a>
+    </li>
   </ul>
 </nav>
 <div class="container mx-auto">
