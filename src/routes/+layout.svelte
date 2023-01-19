@@ -1,23 +1,23 @@
 <script>
   import "../app.css";
-  import { page } from '$app/stores';
+  import Link from '$lib/link.svelte';
 </script>
 <nav class="bg-gray-400">
   <ul class="container mx-auto h-10 flex items-center space-x-2">
     <li>
-      <a href="/" class="hover:underline" class:font-semibold={$page.route.id === '/'}>
+      <Link>
         Home
-      </a>
+      </Link>
     </li>
     <li>
-      <a href="/about" class="hover:underline" class:font-semibold={$page.route.id === '/about'}>
+      <Link href="/about" route='/about'>
         About
-      </a>
+      </Link>
     </li>
     <li>
-      <a href="/getting-in-touch" class="hover:underline" class:font-semibold={$page.route.id === '/[page=contact]'}>
+      <Link href="/getting-in-touch" route='/[page=contact]'>
         Contact
-      </a>
+      </Link>
     </li>
   </ul>
 </nav>
