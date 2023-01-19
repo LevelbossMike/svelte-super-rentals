@@ -1,7 +1,11 @@
 <script>
   import "../app.css";
   import Link from '$lib/link.svelte';
+  import { page } from '$app/stores';
 </script>
+<svelte:head>
+  <title>{$page.data.title}</title>
+</svelte:head>
 <nav class="bg-gray-400">
   <ul class="container mx-auto h-10 flex items-center space-x-2">
     <li>
